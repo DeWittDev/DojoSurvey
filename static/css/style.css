@@ -31,6 +31,17 @@ body {
   padding-left: 7px;
   border-radius: 5px;
 }
+.card table {
+  color: #9fa7a5;
+  font-size: 22px;
+  width: 50%;
+}
+.card table th {
+  text-align: left;
+}
+.card table td {
+  text-align: right;
+}
 .card #textbox {
   margin-top: 3px;
   border-radius: 10px;
@@ -40,9 +51,13 @@ body {
   padding-left: 7px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.card .rad input {
-  height: 17px;
-  width: 17px;
+.card select {
+  background-color: #ffffff;
+  max-width: 90%;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 7px;
+  border-radius: 5px;
 }
 .card #sumbit {
   width: 100px;

@@ -10,22 +10,24 @@
 <body>
     <div class='card'>
         <ol>
-            <tr>
-                <td>Name:</td>
-                <td>{{session['name']}}</td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td>{{session['email']}}</td>
-            </tr>
-            <tr>
-                <td>Favorit</td>
-                <td>{{session['rad']}}</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>{{session['textbox']}}</td>
-            </tr>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td>{{session['name']}}</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>{{session['email']}}</td>
+                </tr>
+                <tr>
+                    <th>Favorite:</th> 
+                    <td>{{session['fav']}}</td>
+                </tr>
+                <tr>
+                    <th>Comment:</th>
+                    <td>{{session['textbox']}}</td>
+                </tr>
+            </table>
         </ol>
     </div>
 </body>

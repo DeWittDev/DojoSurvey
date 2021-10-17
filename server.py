@@ -6,7 +6,15 @@ app.secret_key = "Standing Man"
 def index():
     return render_template('index.html')
 
-@app.route('/results')
+@app.route('/process', methods=['POST'])
+def process():
+    session['name'] = request.form['name']
+    session['email'] = request.form['email']
+    session['fav'] = request.form['fav']
+    session['textbox'] = request.form['textbox']
+    return redirect('/result')
+
+@app.route('/result')
 def results():
     return render_template('result.html')
 
