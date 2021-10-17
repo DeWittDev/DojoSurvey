@@ -1,7 +1,7 @@
-@internal: #5ae9a6;
+@internal: #5ae991;
 @bg: #28283a;
-@lab: #7e8987;
-@contrast: #f96f5d;
+@lab: #9fa7a5;
+@contrast: #f9b55d;
 @bgw: #ffffff;
 @font2: sarif;
 
@@ -10,12 +10,14 @@
     padding: 0px;
     border: none;
 }
-
+body {
+    background-color: @lab;
+    display: flex;
+    justify-content: center;
+}
 .card {
-    border: 2px solid black;
-    margin-left: 35%;
-    width: 30%;
-    height: 1024px;
+    width: 40%;
+    height: 986px;
     padding: 40px;
     background-color: @bg;
     h1{
@@ -24,26 +26,35 @@
         margin-bottom: 20px;
     }
     label {
-        color: #fff3f3;
+        color: @lab;
         font-size: 20px;
     }
     input {
         background-color: @bgw;
-        width: 250px;
+        max-width: 90%;
         height: 30px;
         font-size: 20px;
         padding-left: 7px;
+        border-radius: 5px;
     }
     #textbox {
-        width: 500px;
+        margin-top: 3px;
+        border-radius: 10px;
+        width: 99%;
         height: 150px;
         font-size: 18px;
         padding-left: 7px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    .rad{
-        input{
-            height: 17px
+    .rad {
+        input {
+            height: 17px;
+            width: 17px;
         }
+    }
+    #sumbit {
+        width: 100px;
+        height: 40px;
+        background-color: @contrast;
     }
 }

@@ -3,32 +3,38 @@
   padding: 0px;
   border: none;
 }
+body {
+  background-color: #9fa7a5;
+  display: flex;
+  justify-content: center;
+}
 .card {
-  border: 2px solid black;
-  margin-left: 35%;
-  width: 30%;
-  height: 1024px;
+  width: 40%;
+  height: 986px;
   padding: 40px;
   background-color: #28283a;
 }
 .card h1 {
-  color: #5ae9a6;
+  color: #5ae991;
   font-size: 40px;
   margin-bottom: 20px;
 }
 .card label {
-  color: #fff3f3;
+  color: #9fa7a5;
   font-size: 20px;
 }
 .card input {
   background-color: #ffffff;
-  width: 250px;
+  max-width: 90%;
   height: 30px;
   font-size: 20px;
   padding-left: 7px;
+  border-radius: 5px;
 }
 .card #textbox {
-  width: 500px;
+  margin-top: 3px;
+  border-radius: 10px;
+  width: 99%;
   height: 150px;
   font-size: 18px;
   padding-left: 7px;
@@ -36,4 +42,10 @@
 }
 .card .rad input {
   height: 17px;
+  width: 17px;
+}
+.card #sumbit {
+  width: 100px;
+  height: 40px;
+  background-color: #f9b55d;
 }
