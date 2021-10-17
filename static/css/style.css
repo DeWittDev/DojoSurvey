@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+.card {
+  border: 2px solid black;
+  margin-left: 35%;
+  width: 30%;
+  height: 1024px;
+  padding: 40px;
+  background-color: #28283a;
+}
+.card h1 {
+  color: #5ae9a6;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.card label {
+  color: #fff3f3;
+  font-size: 20px;
+}
+.card input {
+  background-color: #ffffff;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 7px;
+}
+.card #textbox {
+  width: 500px;
+  height: 150px;
+  font-size: 18px;
+  padding-left: 7px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card .rad input {
+  height: 17px;
+}
